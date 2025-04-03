@@ -513,7 +513,7 @@ label{
     height: 400px;
     /* min-height: 30vh; */
     /* backdrop-filter: blur(30px); */
-    background-image: linear-gradient(pink, white);
+    background-image: linear-gradient(pink, rgb(23, 21, 21));
     /* background-color: linear-gradient(white black); */
 }
 
