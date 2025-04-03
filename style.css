@@ -77,7 +77,7 @@ img{
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-    background: url(./Images/pexels-mega-2.jpg);
+    background: url(./Images/woman-orange-oversized-jacket-street-style-apparel-full-body.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,7 +160,7 @@ img{
     height: 250px;
     border-radius: 10px;
     width: 550px;
-    background: url(./Images/img-teddyjmodel-2955375.jpg);
+    background: url(./Images/alvin-mahmudov-oBT4lJvNMQg-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -319,7 +319,7 @@ label{
 } */
 
 .one{
-    background: url(./Images/future-8-removebg-preview.png);
+    background: url(./Images/still-life-rendering-jackets-display-removebg-preview.png);
     /* border: 2px solid black; */
     border-radius: 10px;
     height: 300px;
@@ -330,7 +330,7 @@ label{
 }
 
 .two{
-    background: url(./Images/future-7-removebg-preview.png);
+    background: url(./Images/future-11-removebg-preview.png);
     border-radius: 10px;
     /* border: 2px solid black; */
     height: 300px;
@@ -341,7 +341,7 @@ label{
 }
 
 .three{
-    background: url(./Images/future-11-removebg-preview.png);
+    background: url(./Images/tuananh-blue-3EZnjoVzyr4-unsplash-removebg-preview.png);
     /* border: 2px solid black; */
     height: 300px;
     border-radius: 10px;
@@ -413,22 +413,52 @@ label{
 
 .short{
     position: relative;
-    bottom: 70px;
+    bottom: 97px;
     margin-left: 700px;
     /* margin-bottom: 100px; */
     width: 350px;
+    animation: right linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
     height: 350px;
+}
+
+@keyframes right{
+    from{
+        opacity: 0;
+        transform:translateX(500px);
+    }
+    to{
+        opacity: 1.5;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes left{
+    from{
+        opacity: 0;
+        transform:translateX(500px);
+    }
+    to{
+        opacity: 1.5;
+        transform:translateX(0px);
+    }
 }
 .shorts{
     position: relative;
-    bottom: 425px;
+    bottom: 450px;
     margin-left: 500px;
     /* margin-bottom: 100px; */
     width: 350px;
+    animation: left linear;
+    /* animation: right linear; */
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
     height: 350px;
 }
 .enjoy{
     color: white;
+    margin: 20px;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: "Poppins", sans-serif;
     font-size: 40px;
@@ -460,4 +490,96 @@ label{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
+}
+.hot-sale{
+    padding: 150px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 400px;
+    /* min-height: 30vh; */
+    /* backdrop-filter: blur(30px); */
+    background-image: linear-gradient(pink, white);
+    /* background-color: linear-gradient(white black); */
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item{
+    color: white;
+    user-select: none;
+    /* width: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    width: 400px;
+    /* height: 400px; */
+    /* border: 2px solid black; */
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.card-list .card-item .user-image{
+    width: 350px;
+    height: 350px;
+    /* border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid white;
+    padding: 4px; */
+}
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+.card-list .card-item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: black;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+.card-list .card-item .message-button:hover{
+    background:  rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    color: white;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: white;
+    height: 15px;
+    /* color: white; */
+    width: 15px;
+}
+
+
+.slider-wrapper .swiper-slide-button{
+    color: white;
+    /* margin-top: -50px; */
 }
