@@ -599,11 +599,11 @@ label{
   
   /* Cart Icon */
   .cart-icon {
-    position: absolute;
+    position: fixed;
     top: 12px;
     right: 10px;
     background: transparent;
-    color: white;
+    color: green;
     padding: 10px 17px;
     border-radius: 50px;
     cursor: pointer;
@@ -620,10 +620,10 @@ label{
     position: fixed;
     top: 0;
     right: -300px;
-    width: 300px;
-    color: white;
+    width: 400px;
+    color: black;
     height: 100%;
-    background-color: black;
+    background-image: linear-gradient(white, blue);
     box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     overflow-y: auto;
@@ -777,4 +777,129 @@ label{
 .fa-arrow-left:hover{
     position: relative;
     right: 7px;
+}
+
+@media screen and (max-width: 320px) { 
+    .nav-container{
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+        width: 500px;
+    }
+
+    .nav-bar ul li a{
+        position: relative;
+        right: 100px;
+        display: block;
+        color: black;
+        font-size: 15px;
+        padding: 10px 25px;
+        border-radius: 25px;
+        transition: .5s;
+        /* margin: 0 10px; */
+    }
+    
+    .nav-bar ul li a:hover{
+        color: black;
+        background: white;
+    }
+    
+    .bby{
+        background-color: white;
+    }
+
+    .content{
+        width: 650px;
+        height: 100vh;
+        background: fixed;
+        background-color: transparent;
+        background: url(./Images/woman-orange-oversized-jacket-street-style-apparel-full-body.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+    }
+
+    .Get{
+        position: relative;
+        right: 50px;
+        font-size: 100px;
+    }
+
+    .up-to{
+        position: relative;
+        right: 30px;
+    }
+    .img{
+        width: 400px;
+        position: relative;
+        left: 110px;
+        top: 50px;
+        border-radius: 50px;
+    }
+
+    .img-2{
+        width: 400px;
+        border-radius: 50px;
+        position: relative;
+        left: 110px;
+        bottom: 50px;
+    }
+
+    .box-content b2{
+        display: none;
+    }
+
+    .text{
+        position: relative;
+        left: 30px;
+        bottom: 110px;
+        font-size: 18px;
+    }
+    .text-1{
+        position: relative;
+        bottom: 100px;
+    }
+    .text-2{
+        position: relative;
+        bottom: 100px;
+        left: 30px;
+    }
+
+    .text-3{
+        position: relative;
+        left: 270px;
+        font-size: 20px;
+    }
+    .text-4{
+        position: relative;
+        left: 270px;
+    }
+    .text-5{
+        position: relative;
+        left: 290px; 
+    }
+    .category-title{
+        font-size: 30px;
+        position: relative;
+        left: 120px;
+        bottom: 35px;
+    }
+    .family{
+        position: relative;
+        top: 30px;
+        right: 30px;
+        font-size: 20px;
+    }
+    .blabla{
+        position: relative;
+        top: 75px;
+        right: 70px;
+        font-size: 30px;
+    }
+    .now{
+        position: relative;
+        top: 30px;
+        right: 170px;
+    }
 }
