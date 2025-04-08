@@ -779,7 +779,9 @@ label{
     right: 7px;
 }
 
-@media screen and (max-width: 500px) { 
+
+
+@media screen and (max-width: 400px) { 
     .nav-container{
         position: fixed;
         z-index: 1;
@@ -791,7 +793,7 @@ label{
 
     .nav-bar ul li a{
         position: relative;
-        right: 30px;
+        right: 60px;
         display: block;
         /* text-decoration: dotted; */
         color: black;
@@ -843,18 +845,18 @@ label{
         font-size: 30px;
     }
     .img{
-        width: 400px;
+        width: 365px;
         position: relative;
-        right: 5px;
+        right: -22px;
         top: 50px;
         border-radius: 50px;
     }
 
     .img-2{
-        width: 400px;
+        width: 365px;
         border-radius: 50px;
         position: relative;
-        right: 5px;
+        right: -22px;
         bottom: 50px;
     }
 
@@ -913,7 +915,7 @@ label{
     .now{
         position: relative;
         top: 30px;
-        right: 210px;
+        right: 220px;
         background-color: white;
     }
     .cart-icon{
