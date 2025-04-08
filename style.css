@@ -779,21 +779,24 @@ label{
     right: 7px;
 }
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 500px) { 
     .nav-container{
         position: fixed;
         z-index: 1;
+        /* font-size: 20px; */
         background-color: white;
         width: 500px;
+        height: 50px;
     }
 
     .nav-bar ul li a{
         position: relative;
-        right: 100px;
+        right: 30px;
         display: block;
+        /* text-decoration: dotted; */
         color: black;
-        font-size: 15px;
-        padding: 10px 25px;
+        font-size: 11px;
+        padding: 8px 17px;
         border-radius: 25px;
         transition: .5s;
         /* margin: 0 10px; */
@@ -823,17 +826,26 @@ label{
     .Get{
         position: relative;
         right: 50px;
-        font-size: 100px;
+        font-size: 20px;
     }
 
     .up-to{
         position: relative;
         right: 30px;
+        font-size: 25px;
+    }
+    .off{
+        font-size: 20px;
+        color: white;
+    }
+    .vivian{
+        color: black;
+        font-size: 30px;
     }
     .img{
         width: 400px;
         position: relative;
-        left: 110px;
+        right: 5px;
         top: 50px;
         border-radius: 50px;
     }
@@ -842,7 +854,7 @@ label{
         width: 400px;
         border-radius: 50px;
         position: relative;
-        left: 110px;
+        right: 5px;
         bottom: 50px;
     }
 
@@ -852,54 +864,62 @@ label{
 
     .text{
         position: relative;
-        left: 30px;
+        left: -70px;
         bottom: 110px;
         font-size: 18px;
     }
     .text-1{
         position: relative;
+        left: -70px;
         bottom: 100px;
     }
     .text-2{
         position: relative;
         bottom: 100px;
-        left: 30px;
+        left: -70px;
     }
 
     .text-3{
         position: relative;
-        left: 270px;
+        left: 200px;
         font-size: 20px;
     }
     .text-4{
         position: relative;
-        left: 270px;
+        left: 220px;
     }
     .text-5{
         position: relative;
-        left: 290px; 
+        left: 210px; 
     }
     .category-title{
-        font-size: 30px;
+        font-size: 20px;
         position: relative;
-        left: 120px;
+        left: 10px;
         bottom: 35px;
     }
     .family{
         position: relative;
         top: 30px;
-        right: 30px;
-        font-size: 20px;
+        right: 50px;
+        font-size: 17px;
     }
     .blabla{
         position: relative;
         top: 75px;
-        right: 70px;
+        right: 130px;
         font-size: 30px;
     }
     .now{
         position: relative;
         top: 30px;
-        right: 170px;
+        right: 210px;
+        background-color: white;
     }
+    .cart-icon{
+       display: none;
+    }
+    .cart-sidebar {
+      display: none;
+      }
 }
