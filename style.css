@@ -781,7 +781,7 @@ label{
 
 
 
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 500px) { 
     .nav-container{
         position: fixed;
         z-index: 1;
@@ -846,18 +846,18 @@ label{
         font-size: 30px;
     }
     .img{
-        width: 365px;
+        width: 300px;
         position: relative;
-        right: -22px;
+        right: -10px;
         top: 50px;
         border-radius: 50px;
     }
 
     .img-2{
-        width: 365px;
+        width: 300px;
         border-radius: 50px;
         position: relative;
-        right: -22px;
+        right: -10px;
         bottom: 50px;
     }
 
@@ -867,33 +867,37 @@ label{
 
     .text{
         position: relative;
-        left: -70px;
+        left: -150px;
         bottom: 110px;
-        font-size: 18px;
+        display: none;
+        font-size: 15px;
     }
     .text-1{
         position: relative;
-        left: -70px;
-        bottom: 100px;
+        left: -140px;
+        bottom: 55px;
     }
     .text-2{
         position: relative;
-        bottom: 100px;
-        left: -70px;
+        bottom: 60px;
+        left: -140px;
     }
 
     .text-3{
         position: relative;
         left: 200px;
+        display: none;
         font-size: 20px;
     }
     .text-4{
         position: relative;
-        left: 220px;
+        left: 190px;
+        top: 20px;
     }
     .text-5{
         position: relative;
-        left: 210px; 
+        left: 170px; 
+        top: 20px;
     }
     .category-title{
         font-size: 20px;
@@ -904,19 +908,20 @@ label{
     .family{
         position: relative;
         top: 30px;
-        right: 50px;
-        font-size: 17px;
+        right: 60px;
+        font-weight: 900;
+        font-size: 14px;
     }
     .blabla{
         position: relative;
         top: 75px;
-        right: 130px;
+        right: 150px;
         font-size: 30px;
     }
     .now{
         position: relative;
         top: 30px;
-        right: 220px;
+        right: 230px;
         background-color: white;
     }
     .cart-icon{
