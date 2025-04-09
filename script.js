@@ -130,4 +130,7 @@ const swiper = new Swiper('.slider-wrapper', {
   // Initialize Cart instance
   const cart = new Cart();
   
+  function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
 alert('Welcome')
